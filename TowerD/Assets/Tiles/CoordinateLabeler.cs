@@ -33,6 +33,7 @@ public class CoordinateLabeler : MonoBehaviour
 
         SetLabelColor();
         ToggleLabels();
+        label.enabled = true;
     }
 
     void SetLabelColor()
